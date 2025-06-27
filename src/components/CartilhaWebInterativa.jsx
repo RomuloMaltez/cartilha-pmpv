@@ -375,7 +375,13 @@ const CartilhaWebInterativa = () => {
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis dataKey="nome" />
                   <YAxis />
-                  <Tooltip formatter={(value) => [`R$ ${value} milhões`, 'Valor']} />
+                  <Tooltip formatter={(value) => {
+                    if (value >= 1000) {
+                      return [`R$ ${(value/1000).toFixed(1)} bilhões`, 'Valor'];
+                    } else {
+                      return [`R$ ${value} milhões`, 'Valor'];
+                    }
+                  }} />
                   <Bar dataKey="valor" fill="#3B82F6" radius={[4, 4, 0, 0]} />
                 </BarChart>
               </ResponsiveContainer>
