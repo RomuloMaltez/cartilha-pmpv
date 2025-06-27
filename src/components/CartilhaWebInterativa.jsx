@@ -288,34 +288,52 @@ const CartilhaWebInterativa = () => {
 
             {/* Cards de destaque */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-              <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-2xl p-8 shadow-lg">
+              <div style={{
+                background: 'linear-gradient(to bottom right, #3b82f6, #2563eb)',
+                color: 'white',
+                borderRadius: '1rem',
+                padding: '2rem',
+                boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)'
+              }}>
                 <div className="flex items-center justify-between mb-4">
                   <Users className="h-10 w-10" />
                   <span className="text-3xl font-bold">99.1%</span>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Receitas Tributárias</h3>
                 <p className="text-2xl font-bold">R$ 568 milhões</p>
-                <p className="text-blue-100 mt-2 font-semibold">Auditores do Tesouro</p>
+                <p style={{ color: '#dbeafe' }} className="mt-2 font-semibold">Auditores do Tesouro</p>
               </div>
 
-              <div className="bg-gradient-to-br from-red-500 to-red-600 text-white rounded-2xl p-8 shadow-lg">
+              <div style={{
+                background: 'linear-gradient(to bottom right, #ef4444, #dc2626)',
+                color: 'white',
+                borderRadius: '1rem',
+                padding: '2rem',
+                boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)'
+              }}>
                 <div className="flex items-center justify-between mb-4">
                   <Shield className="h-10 w-10" />
                   <span className="text-3xl font-bold">0.9%</span>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Autos de Infração</h3>
                 <p className="text-2xl font-bold">R$ 5.2 milhões</p>
-                <p className="text-red-100 mt-2 font-semibold">Fiscais Municipais</p>
+                <p style={{ color: '#fca5a5' }} className="mt-2 font-semibold">Fiscais Municipais</p>
               </div>
 
-              <div className="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-2xl p-8 shadow-lg">
+              <div style={{
+                background: 'linear-gradient(to bottom right, #22c55e, #16a34a)',
+                color: 'white',
+                borderRadius: '1rem',
+                padding: '2rem',
+                boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)'
+              }}>
                 <div className="flex items-center justify-between mb-4">
                   <Scale className="h-10 w-10" />
                   <span className="text-3xl font-bold">109:1</span>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Proporção</h3>
                 <p className="text-lg">Para cada R$ 1 em multas</p>
-                <p className="text-green-100 mt-2">R$ 109 em tributos</p>
+                <p style={{ color: '#dcfce7' }} className="mt-2">R$ 109 em tributos</p>
               </div>
             </div>
 
@@ -341,12 +359,16 @@ const CartilhaWebInterativa = () => {
             <div className="grid lg:grid-cols-2 gap-8">
               {/* Auditor do Tesouro */}
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-                <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-6">
+                <div style={{
+                  background: 'linear-gradient(to right, #3b82f6, #2563eb)',
+                  color: 'white',
+                  padding: '1.5rem'
+                }}>
                   <div className="flex items-center">
                     <Users className="h-10 w-10 mr-4" />
                     <div>
                       <h3 className="text-2xl font-bold">👨‍💼 AUDITOR DO TESOURO</h3>
-                      <p className="text-blue-100">Competência Tributária Exclusiva</p>
+                      <p style={{ color: '#dbeafe' }}>Competência Tributária Exclusiva</p>
                     </div>
                   </div>
                 </div>
@@ -399,12 +421,16 @@ const CartilhaWebInterativa = () => {
 
               {/* Fiscal Municipal */}
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-                <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-6">
+                <div style={{
+                  background: 'linear-gradient(to right, #ef4444, #dc2626)',
+                  color: 'white',
+                  padding: '1.5rem'
+                }}>
                   <div className="flex items-center">
                     <Shield className="h-10 w-10 mr-4" />
                     <div>
                       <h3 className="text-2xl font-bold">👮‍♂️ FISCAL MUNICIPAL</h3>
-                      <p className="text-red-100">Poder de Polícia Administrativo</p>
+                      <p style={{ color: '#fca5a5' }}>Poder de Polícia Administrativo</p>
                     </div>
                   </div>
                 </div>
@@ -519,7 +545,13 @@ const CartilhaWebInterativa = () => {
 
             {/* Separação Clara das Responsabilidades */}
             <div className="mt-16 grid md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-2xl p-8 shadow-lg">
+              <div style={{
+                background: 'linear-gradient(to bottom right, #3b82f6, #2563eb)',
+                color: 'white',
+                borderRadius: '1rem',
+                padding: '2rem',
+                boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)'
+              }}>
                 <div className="text-center">
                   <Users className="h-16 w-16 mx-auto mb-4" />
                   <h3 className="text-2xl font-bold mb-4">Receitas Tributárias</h3>
@@ -527,13 +559,19 @@ const CartilhaWebInterativa = () => {
                   <div className="text-xl font-semibold bg-white/20 rounded-lg py-2 px-4">
                     Auditores do Tesouro
                   </div>
-                  <p className="mt-4 text-blue-100">
+                  <p className="mt-4" style={{ color: '#dbeafe' }}>
                     Competência constitucional exclusiva para arrecadação de tributos
                   </p>
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-red-500 to-red-600 text-white rounded-2xl p-8 shadow-lg">
+              <div style={{
+                background: 'linear-gradient(to bottom right, #ef4444, #dc2626)',
+                color: 'white',
+                borderRadius: '1rem',
+                padding: '2rem',
+                boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)'
+              }}>
                 <div className="text-center">
                   <Shield className="h-16 w-16 mx-auto mb-4" />
                   <h3 className="text-2xl font-bold mb-4">Autos de Infração</h3>
@@ -541,7 +579,7 @@ const CartilhaWebInterativa = () => {
                   <div className="text-xl font-semibold bg-white/20 rounded-lg py-2 px-4">
                     Fiscais Municipais
                   </div>
-                  <p className="mt-4 text-red-100">
+                  <p className="mt-4" style={{ color: '#fca5a5' }}>
                     Poder de polícia administrativo para fiscalização e correção
                   </p>
                 </div>
@@ -558,10 +596,16 @@ const CartilhaWebInterativa = () => {
                 <DollarSign className="h-16 w-16 text-green-600 mx-auto mb-6" />
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">🏆 VAF-ICMS e ITR - DESTAQUE ESPECIAL</h2>
                 
-                <div className="bg-gradient-to-r from-green-500 to-green-600 text-white rounded-xl p-6 mb-6">
+                <div style={{
+                  background: 'linear-gradient(to right, #22c55e, #16a34a)',
+                  color: 'white',
+                  borderRadius: '0.75rem',
+                  padding: '1.5rem',
+                  marginBottom: '1.5rem'
+                }}>
                   <h3 className="text-2xl font-bold mb-2">VAF-ICMS: R$ 92 milhões</h3>
                   <p className="text-lg">16,2% das receitas tributárias</p>
-                  <p className="text-sm text-green-100 mt-2">+ ITR (Imposto Territorial Rural)</p>
+                  <p style={{ color: '#dcfce7' }} className="text-sm mt-2">+ ITR (Imposto Territorial Rural)</p>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-6 text-left">
@@ -616,19 +660,35 @@ const CartilhaWebInterativa = () => {
               </div>
 
               <div className="grid md:grid-cols-4 gap-4 text-center">
-                <div className="bg-blue-600 rounded-lg p-4">
+                <div style={{
+                  background: '#3b82f6',
+                  borderRadius: '0.5rem',
+                  padding: '1rem'
+                }}>
                   <Gavel className="h-8 w-8 mx-auto mb-2" />
                   <p className="font-semibold">Segurança Jurídica</p>
                 </div>
-                <div className="bg-green-600 rounded-lg p-4">
+                <div style={{
+                  background: '#22c55e',
+                  borderRadius: '0.5rem',
+                  padding: '1rem'
+                }}>
                   <TrendingUp className="h-8 w-8 mx-auto mb-2" />
                   <p className="font-semibold">Eficiência Administrativa</p>
                 </div>
-                <div className="bg-purple-600 rounded-lg p-4">
+                <div style={{
+                  background: '#9333ea',
+                  borderRadius: '0.5rem',
+                  padding: '1rem'
+                }}>
                   <Shield className="h-8 w-8 mx-auto mb-2" />
                   <p className="font-semibold">Interesse Público</p>
                 </div>
-                <div className="bg-red-600 rounded-lg p-4">
+                <div style={{
+                  background: '#dc2626',
+                  borderRadius: '0.5rem',
+                  padding: '1rem'
+                }}>
                   <Scale className="h-8 w-8 mx-auto mb-2" />
                   <p className="font-semibold">Mandamentos Constitucionais</p>
                 </div>
