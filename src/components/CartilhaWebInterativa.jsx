@@ -157,10 +157,10 @@ const CartilhaWebInterativa = () => {
               CARTILHA ILUSTRATIVA
             </h1>
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4">
-              AUDITORES DO TESOURO vs FISCAIS MUNICIPAIS
+              ENTENDA AS DIFERENÇAS ENTRE AUDITORES DO TESOURO E FISCAIS MUNICIPAIS
             </h2>
             <p className="text-lg sm:text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Entenda as Diferenças e Competências - VALORES REAIS ATUALIZADOS
+              VALORES REAIS - PLOA 2025
             </p>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 max-w-2xl mx-auto">
@@ -255,8 +255,10 @@ const CartilhaWebInterativa = () => {
                   <p className="text-lg text-gray-800 leading-relaxed font-medium max-w-2xl mx-auto">
                     A separação de competências <span className="font-bold text-amber-700">garante segurança jurídica</span>, 
                     <span className="font-bold text-orange-700"> eficiência administrativa</span> e 
-                    <span className="font-bold text-amber-700"> proteção do interesse público</span>
-                  </p>
+                    <span className="font-bold text-amber-700"> proteção do interesse público</span>, 
+                    <span className="font-bold text-blue-700"> fundamentada no princípio da unicidade da autoridade tributária,</span>
+                    <span className="font-bold text-red-700"> evitando a pulverização de atribuições e a sobreposição de poderes no exercício da fiscalização e arrecadação de tributos</span>.
+                  </p> 
                   
                   <div style={{
                     display: 'flex',
@@ -441,6 +443,7 @@ const CartilhaWebInterativa = () => {
                       <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• R$ 939 milhões em receitas tributárias</li>
                       <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• 99,4% das receitas próprias</li>
                       <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• VAF-ICMS: R$ 460 milhões</li>
+                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• Outros Repasses: R$ 223 milhões</li>
                       <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• ITR: R$ 3 milhões</li>
                     </ul>
                   </div>
