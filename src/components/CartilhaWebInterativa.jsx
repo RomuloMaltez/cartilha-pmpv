@@ -611,11 +611,11 @@ const CartilhaWebInterativa = () => {
                 <div className="grid md:grid-cols-2 gap-6 text-left">
                   <div>
                     <h4 className="font-bold text-green-600 mb-3">✅ CARACTERÍSTICAS:</h4>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• Depende da fiscalização tributária</li>
-                      <li>• Responsabilidade dos Auditores</li>
-                      <li>• Impacto direto na receita</li>
-                      <li>• Inclui gestão do ITR municipal</li>
+                    <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                      <li style={{ marginBottom: '0.5rem', color: '#374151' }}>• Depende da fiscalização tributária</li>
+                      <li style={{ marginBottom: '0.5rem', color: '#374151' }}>• Responsabilidade dos Auditores</li>
+                      <li style={{ marginBottom: '0.5rem', color: '#374151' }}>• Impacto direto na receita</li>
+                      <li style={{ marginBottom: '0.5rem', color: '#374151' }}>• Inclui gestão do ITR municipal</li>
                     </ul>
                   </div>
                   <div>
