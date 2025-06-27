@@ -229,7 +229,7 @@ const CartilhaWebInterativa = () => {
                   <h3 className="text-xl font-bold text-red-600">Poder de Polícia</h3>
                 </div>
                 <p className="text-gray-700">
-                  <span className="font-semibold">Exercido pelos Fiscais Municipais</span><br/>
+                  <span className="font-semibold">Exclusiva dos Fiscais Municipais</span><br/>
                   Poder de polícia administrativo para fiscalização e aplicação de autos de infração.
                 </p>
               </div>
