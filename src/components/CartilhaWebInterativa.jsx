@@ -692,7 +692,7 @@ const CartilhaWebInterativa = () => {
                     OS FISCAIS MUNICIPAIS EXERCEM PODER DE POLÍCIA ATRAVÉS DE AUTOS DE INFRAÇÃO
                   </p>
                   <p className="font-bold text-green-300 text-2xl">
-                    PROPORÇÃO REAL: 212:1 - RECEITAS TRIBUTÁRIAS/REPASSES vs AUTOS DE INFRAÇÃO
+                    <span className="font-bold">AUDITORES DO TESOURO</span> e <span className="font-bold">FISCAIS MUNICIPAIS</span> exercem papéis distintos, porém complementares e cruciais ao serviço público. A colaboração mútua dessas carreiras é vital para otimizar a fiscalização e fortalecer a gestão em benefício da sociedade.
                   </p>
                 </div>
               </div>
