@@ -364,11 +364,11 @@ const CartilhaWebInterativa = () => {
                   color: 'white',
                   padding: '1.5rem'
                 }}>
-                  <div className="flex items-center">
-                    <Users className="h-10 w-10 mr-4" />
+                  <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <Users style={{ height: '2.5rem', width: '2.5rem', marginRight: '1rem' }} />
                     <div>
-                      <h3 className="text-2xl font-bold">👨‍💼 AUDITOR DO TESOURO</h3>
-                      <p style={{ color: '#dbeafe' }}>Competência Tributária Exclusiva</p>
+                      <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', margin: 0 }}>👨‍💼 AUDITOR DO TESOURO</h3>
+                      <p style={{ color: '#dbeafe', margin: 0, fontSize: '1rem' }}>Competência Tributária Exclusiva</p>
                     </div>
                   </div>
                 </div>
@@ -376,33 +376,33 @@ const CartilhaWebInterativa = () => {
                 <div className="p-6">
                   <div className="mb-6">
                     <h4 className="text-lg font-bold text-gray-900 mb-3">✅ COMPETÊNCIAS EXCLUSIVAS:</h4>
-                    <ul className="space-y-2 text-gray-700">
-                      <li className="flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
+                    <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#3b82f6', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         Lançamento de tributos (ISS, IPTU, ITBI, Taxa Lixo, demais Taxas)
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#3b82f6', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         A partir de 2026: lançamento do IBS
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#3b82f6', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         Constituição e revisão do crédito tributário
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#3b82f6', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         Aplicação e revogação de benefícios fiscais
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#3b82f6', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         Poder de decisão sobre créditos tributários
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#3b82f6', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         Gestão de créditos e cadastros tributários e rendas municipais
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#3b82f6', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         Responsabilidade pelo VAF-ICMS e pelo ITR
                       </li>
                     </ul>
@@ -410,10 +410,10 @@ const CartilhaWebInterativa = () => {
 
                   <div className="bg-blue-50 rounded-lg p-4">
                     <h4 className="font-bold text-blue-900 mb-2">💰 RESPONSABILIDADES FINANCEIRAS:</h4>
-                    <ul className="text-sm text-blue-800 space-y-1">
-                      <li>• R$ 568 milhões em receitas tributárias</li>
-                      <li>• 99,1% das receitas próprias</li>
-                      <li>• VAF-ICMS: R$ 92 milhões</li>
+                    <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• R$ 568 milhões em receitas tributárias</li>
+                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• 99,1% das receitas próprias</li>
+                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• VAF-ICMS: R$ 92 milhões</li>
                     </ul>
                   </div>
                 </div>
@@ -426,11 +426,11 @@ const CartilhaWebInterativa = () => {
                   color: 'white',
                   padding: '1.5rem'
                 }}>
-                  <div className="flex items-center">
-                    <Shield className="h-10 w-10 mr-4" />
+                  <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <Shield style={{ height: '2.5rem', width: '2.5rem', marginRight: '1rem' }} />
                     <div>
-                      <h3 className="text-2xl font-bold">👮‍♂️ FISCAL MUNICIPAL</h3>
-                      <p style={{ color: '#fca5a5' }}>Poder de Polícia Administrativo</p>
+                      <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', margin: 0 }}>👮‍♂️ FISCAL MUNICIPAL</h3>
+                      <p style={{ color: '#fca5a5', margin: 0, fontSize: '1rem' }}>Poder de Polícia Administrativo</p>
                     </div>
                   </div>
                 </div>
@@ -438,25 +438,25 @@ const CartilhaWebInterativa = () => {
                 <div className="p-6">
                   <div className="mb-6">
                     <h4 className="text-lg font-bold text-gray-900 mb-3">✅ COMPETÊNCIAS ESPECÍFICAS:</h4>
-                    <ul className="space-y-2 text-gray-700">
-                      <li className="flex items-start">
-                        <span className="text-red-500 mr-2">•</span>
+                    <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#ef4444', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         Aplicação de Autos de Infração de poder de polícia
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-red-500 mr-2">•</span>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#ef4444', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         Fiscalização de policiamento urbano
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-red-500 mr-2">•</span>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#ef4444', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         Exercício do poder de polícia administrativo
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-red-500 mr-2">•</span>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#ef4444', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         Controle de atividades econômicas
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-red-500 mr-2">•</span>
+                      <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
+                        <span style={{ color: '#ef4444', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
                         Verificação de licenças
                       </li>
                     </ul>
@@ -464,13 +464,13 @@ const CartilhaWebInterativa = () => {
 
                   <div className="bg-red-50 rounded-lg p-4 mb-6">
                     <h4 className="font-bold text-red-900 mb-2">🚨 TIPOS DE AUTOS:</h4>
-                    <ul className="text-sm text-red-800 space-y-1">
-                      <li>• Obras e edificações</li>
-                      <li>• Legislação de trânsito</li>
-                      <li>• Meio ambiente</li>
-                      <li>• Vigilância sanitária</li>
-                      <li>• Posturas municipais</li>
-                      <li>• Localização e Funcionamento</li>
+                    <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                      <li style={{ color: '#dc2626', marginBottom: '0.25rem', fontSize: '0.875rem' }}>• Obras e edificações</li>
+                      <li style={{ color: '#dc2626', marginBottom: '0.25rem', fontSize: '0.875rem' }}>• Legislação de trânsito</li>
+                      <li style={{ color: '#dc2626', marginBottom: '0.25rem', fontSize: '0.875rem' }}>• Meio ambiente</li>
+                      <li style={{ color: '#dc2626', marginBottom: '0.25rem', fontSize: '0.875rem' }}>• Vigilância sanitária</li>
+                      <li style={{ color: '#dc2626', marginBottom: '0.25rem', fontSize: '0.875rem' }}>• Posturas municipais</li>
+                      <li style={{ color: '#dc2626', marginBottom: '0.25rem', fontSize: '0.875rem' }}>• Localização e Funcionamento</li>
                     </ul>
                   </div>
 
