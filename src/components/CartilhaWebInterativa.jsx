@@ -257,18 +257,44 @@ const CartilhaWebInterativa = () => {
                     <span className="font-bold text-amber-700"> proteção do interesse público</span>
                   </p>
                   
-                  <div className="mt-6 flex justify-center space-x-6 text-sm text-gray-600">
-                    <div className="flex items-center space-x-2">
-                      <div className="w-3 h-3 bg-amber-500 rounded-full"></div>
-                      <span className="font-medium">Segurança Jurídica</span>
+                  <div style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    gap: '2rem',
+                    marginTop: '2rem',
+                    fontSize: '0.875rem',
+                    color: '#4b5563',
+                    flexWrap: 'wrap'
+                  }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      <div style={{ 
+                        width: '0.75rem', 
+                        height: '0.75rem', 
+                        backgroundColor: '#f59e0b', 
+                        borderRadius: '50%',
+                        flexShrink: 0
+                      }}></div>
+                      <span style={{ fontWeight: '500' }}>Segurança Jurídica</span>
                     </div>
-                    <div className="flex items-center space-x-2">
-                      <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-                      <span className="font-medium">Eficiência</span>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      <div style={{ 
+                        width: '0.75rem', 
+                        height: '0.75rem', 
+                        backgroundColor: '#f97316', 
+                        borderRadius: '50%',
+                        flexShrink: 0
+                      }}></div>
+                      <span style={{ fontWeight: '500' }}>Eficiência</span>
                     </div>
-                    <div className="flex items-center space-x-2">
-                      <div className="w-3 h-3 bg-amber-600 rounded-full"></div>
-                      <span className="font-medium">Interesse Público</span>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      <div style={{ 
+                        width: '0.75rem', 
+                        height: '0.75rem', 
+                        backgroundColor: '#d97706', 
+                        borderRadius: '50%',
+                        flexShrink: 0
+                      }}></div>
+                      <span style={{ fontWeight: '500' }}>Interesse Público</span>
                     </div>
                   </div>
                 </div>
