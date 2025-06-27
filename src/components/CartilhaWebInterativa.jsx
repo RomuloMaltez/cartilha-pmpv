@@ -681,7 +681,7 @@ const CartilhaWebInterativa = () => {
             <div className="max-w-4xl mx-auto">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
                 <h3 className="text-2xl font-bold text-center mb-6 text-blue-400">
-                  🎯 MENSAGEM FINAL COM DADOS REAIS
+                  🎯 MENSAGEM FINAL
                 </h3>
                 
                 <div className="space-y-4 text-lg text-center">
