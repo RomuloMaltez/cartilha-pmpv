@@ -734,7 +734,7 @@ const CartilhaWebInterativa = () => {
             <div className="text-center">
               <div className="mb-8">
                 <h3 className="text-xl font-bold mb-2">Porto Velho - Rondônia</h3>
-                <p className="text-gray-300">Administração Tributária Municipal</p>
+                <p className="text-gray-300">AAFIM - Assoc. dos Auditores-Fiscais Porto Velho</p>
               </div>
               
               <div className="border-t border-gray-700 pt-8">
