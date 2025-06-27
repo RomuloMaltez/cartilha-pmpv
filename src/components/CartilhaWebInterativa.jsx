@@ -24,18 +24,19 @@ const CartilhaWebInterativa = () => {
 
   // Dados para gráficos
   const comparativoData = [
-    { nome: 'Receitas Tributárias', valor: 568, color: '#3B82F6' },
+    { nome: 'Receitas Tributárias', valor: 939.25, color: '#3B82F6' },
     { nome: 'Autos de Infração', valor: 5.2, color: '#EF4444' }
   ];
 
   const receitasDetalhadas = [
-    { nome: 'ISS', valor: 258.2, percentual: 45.4 },
-    { nome: 'VAF-ICMS', valor: 92.1, percentual: 16.2 },
-    { nome: 'COSIP', valor: 76.4, percentual: 13.4 },
-    { nome: 'IPTU', valor: 41.0, percentual: 7.2 },
-    { nome: 'Demais Taxas', valor: 40.2, percentual: 7.1 },
-    { nome: 'Taxa Lixo', valor: 35.8, percentual: 6.3 },
-    { nome: 'ITBI', valor: 24.9, percentual: 4.4 }
+    { nome: 'VAF-ICMS', valor: 460.35, percentual: 49.0 },
+    { nome: 'ISS', valor: 258.2, percentual: 27.5 },
+    { nome: 'COSIP', valor: 76.4, percentual: 8.1 },
+    { nome: 'IPTU', valor: 41.0, percentual: 4.4 },
+    { nome: 'Demais Taxas', valor: 40.2, percentual: 4.3 },
+    { nome: 'Taxa Lixo', valor: 35.8, percentual: 3.8 },
+    { nome: 'ITBI', valor: 24.9, percentual: 2.6 },
+    { nome: 'ITR', valor: 3.0, percentual: 0.3 }
   ];
 
   const autosInfracao = [
@@ -323,10 +324,10 @@ const CartilhaWebInterativa = () => {
               }}>
                 <div className="flex items-center justify-between mb-4">
                   <Users className="h-10 w-10" />
-                  <span className="text-3xl font-bold">99.1%</span>
+                  <span className="text-3xl font-bold">99.4%</span>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Receitas Tributárias</h3>
-                <p className="text-2xl font-bold">R$ 568 milhões</p>
+                <p className="text-2xl font-bold">R$ 939 milhões</p>
                 <p style={{ color: '#dbeafe' }} className="mt-2 font-semibold">Auditores do Tesouro</p>
               </div>
 
@@ -339,7 +340,7 @@ const CartilhaWebInterativa = () => {
               }}>
                 <div className="flex items-center justify-between mb-4">
                   <Shield className="h-10 w-10" />
-                  <span className="text-3xl font-bold">0.9%</span>
+                  <span className="text-3xl font-bold">0.6%</span>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Autos de Infração</h3>
                 <p className="text-2xl font-bold">R$ 5.2 milhões</p>
@@ -355,11 +356,11 @@ const CartilhaWebInterativa = () => {
               }}>
                 <div className="flex items-center justify-between mb-4">
                   <Scale className="h-10 w-10" />
-                  <span className="text-3xl font-bold">109:1</span>
+                  <span className="text-3xl font-bold">181:1</span>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Proporção</h3>
                 <p className="text-lg">Para cada R$ 1 em multas</p>
-                <p style={{ color: '#dcfce7' }} className="mt-2">R$ 109 em tributos</p>
+                <p style={{ color: '#dcfce7' }} className="mt-2">R$ 181 em tributos</p>
               </div>
             </div>
 
@@ -437,9 +438,10 @@ const CartilhaWebInterativa = () => {
                   <div className="bg-blue-50 rounded-lg p-4">
                     <h4 className="font-bold text-blue-900 mb-2">💰 RESPONSABILIDADES FINANCEIRAS:</h4>
                     <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• R$ 568 milhões em receitas tributárias</li>
-                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• 99,1% das receitas próprias</li>
-                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• VAF-ICMS: R$ 92 milhões</li>
+                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• R$ 939 milhões em receitas tributárias</li>
+                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• 99,4% das receitas próprias</li>
+                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• VAF-ICMS: R$ 460 milhões</li>
+                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• ITR: R$ 3 milhões</li>
                     </ul>
                   </div>
                 </div>
@@ -522,7 +524,7 @@ const CartilhaWebInterativa = () => {
             {/* Receitas Tributárias Detalhadas */}
             <div className="mb-12">
               <div className="bg-white rounded-2xl shadow-lg p-8">
-                <h3 className="text-2xl font-bold text-center mb-8 text-blue-600">Receitas Tributárias - R$ 568 milhões</h3>
+                <h3 className="text-2xl font-bold text-center mb-8 text-blue-600">Receitas Tributárias - R$ 939 milhões</h3>
                 <ResponsiveContainer width="100%" height={400}>
                   <PieChart>
                     <Pie
@@ -581,7 +583,7 @@ const CartilhaWebInterativa = () => {
                 <div className="text-center">
                   <Users className="h-16 w-16 mx-auto mb-4" />
                   <h3 className="text-2xl font-bold mb-4">Receitas Tributárias</h3>
-                  <div className="text-4xl font-bold mb-2">R$ 568 milhões</div>
+                  <div className="text-4xl font-bold mb-2">R$ 939 milhões</div>
                   <div className="text-xl font-semibold bg-white/20 rounded-lg py-2 px-4">
                     Auditores do Tesouro
                   </div>
@@ -629,9 +631,9 @@ const CartilhaWebInterativa = () => {
                   padding: '1.5rem',
                   marginBottom: '1.5rem'
                 }}>
-                  <h3 className="text-2xl font-bold mb-2">VAF-ICMS: R$ 92 milhões</h3>
-                  <p className="text-lg">16,2% das receitas tributárias</p>
-                  <p style={{ color: '#dcfce7' }} className="text-sm mt-2">+ ITR (Imposto Territorial Rural)</p>
+                  <h3 className="text-2xl font-bold mb-2">VAF-ICMS: R$ 460 milhões</h3>
+                  <p className="text-lg">49% das receitas tributárias</p>
+                  <p style={{ color: '#dcfce7' }} className="text-sm mt-2">+ ITR: R$ 3 milhões (0,3%)</p>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-6 text-left">
@@ -680,7 +682,7 @@ const CartilhaWebInterativa = () => {
                     OS FISCAIS MUNICIPAIS EXERCEM PODER DE POLÍCIA ATRAVÉS DE AUTOS DE INFRAÇÃO
                   </p>
                   <p className="font-bold text-green-300 text-2xl">
-                    PROPORÇÃO REAL: 109:1 - RECEITAS TRIBUTÁRIAS vs AUTOS DE INFRAÇÃO
+                    PROPORÇÃO REAL: 181:1 - RECEITAS TRIBUTÁRIAS vs AUTOS DE INFRAÇÃO
                   </p>
                 </div>
               </div>
