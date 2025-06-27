@@ -24,18 +24,19 @@ const CartilhaWebInterativa = () => {
 
   // Dados para gráficos
   const comparativoData = [
-    { nome: 'Receitas Tributárias', valor: 939.25, color: '#3B82F6' },
+    { nome: 'Receitas Tributárias e Repasses CF88', valor: 1100, color: '#3B82F6' },
     { nome: 'Autos de Infração', valor: 5.2, color: '#EF4444' }
   ];
 
   const receitasDetalhadas = [
-    { nome: 'VAF-ICMS', valor: 460.35, percentual: 49.0 },
-    { nome: 'ISS', valor: 258.2, percentual: 27.5 },
-    { nome: 'COSIP', valor: 76.4, percentual: 8.1 },
-    { nome: 'IPTU', valor: 41.0, percentual: 4.4 },
-    { nome: 'Demais Taxas', valor: 40.2, percentual: 4.3 },
-    { nome: 'Taxa Lixo', valor: 35.8, percentual: 3.8 },
-    { nome: 'ITBI', valor: 24.9, percentual: 2.6 },
+    { nome: 'VAF-ICMS', valor: 460.35, percentual: 41.8 },
+    { nome: 'ISS', valor: 258.2, percentual: 23.5 },
+    { nome: 'Outros Repasses CF88', valor: 214.0, percentual: 19.5 },
+    { nome: 'COSIP', valor: 76.4, percentual: 6.9 },
+    { nome: 'IPTU', valor: 41.0, percentual: 3.7 },
+    { nome: 'Demais Taxas', valor: 40.2, percentual: 3.7 },
+    { nome: 'Taxa Lixo', valor: 35.8, percentual: 3.3 },
+    { nome: 'ITBI', valor: 24.9, percentual: 2.3 },
     { nome: 'ITR', valor: 3.0, percentual: 0.3 }
   ];
 
@@ -326,10 +327,10 @@ const CartilhaWebInterativa = () => {
               }}>
                 <div className="flex items-center justify-between mb-4">
                   <Users className="h-10 w-10" />
-                  <span className="text-3xl font-bold">99.4%</span>
+                  <span className="text-3xl font-bold">99.5%</span>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Receitas Tributárias</h3>
-                <p className="text-2xl font-bold">R$ 939 milhões</p>
+                <h3 className="text-xl font-bold mb-2">Receitas Tributárias e Repasses CF88</h3>
+                <p className="text-2xl font-bold">R$ 1.1 bilhões</p>
                 <p style={{ color: '#dbeafe' }} className="mt-2 font-semibold">Auditores do Tesouro</p>
               </div>
 
@@ -342,7 +343,7 @@ const CartilhaWebInterativa = () => {
               }}>
                 <div className="flex items-center justify-between mb-4">
                   <Shield className="h-10 w-10" />
-                  <span className="text-3xl font-bold">0.6%</span>
+                  <span className="text-3xl font-bold">0.5%</span>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Autos de Infração</h3>
                 <p className="text-2xl font-bold">R$ 5.2 milhões</p>
@@ -358,11 +359,11 @@ const CartilhaWebInterativa = () => {
               }}>
                 <div className="flex items-center justify-between mb-4">
                   <Scale className="h-10 w-10" />
-                  <span className="text-3xl font-bold">181:1</span>
+                  <span className="text-3xl font-bold">212:1</span>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Proporção</h3>
                 <p className="text-lg">Para cada R$ 1 em multas</p>
-                <p style={{ color: '#dcfce7' }} className="mt-2">R$ 181 em tributos</p>
+                <p style={{ color: '#dcfce7' }} className="mt-2">R$ 212 em tributos/repasses</p>
               </div>
             </div>
 
@@ -440,10 +441,10 @@ const CartilhaWebInterativa = () => {
                   <div className="bg-blue-50 rounded-lg p-4">
                     <h4 className="font-bold text-blue-900 mb-2">💰 RESPONSABILIDADES FINANCEIRAS:</h4>
                     <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• R$ 939 milhões em receitas tributárias</li>
-                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• 99,4% das receitas próprias</li>
+                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• R$ 1.1 bilhões em receitas tributárias e repasses</li>
+                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• 99,5% das receitas próprias</li>
                       <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• VAF-ICMS: R$ 460 milhões</li>
-                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• Outros Repasses: R$ 223 milhões</li>
+                      <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• Outros Repasses: R$ 214 milhões</li>
                       <li style={{ color: '#1e40af', marginBottom: '0.25rem' }}>• ITR: R$ 3 milhões</li>
                     </ul>
                   </div>
@@ -527,7 +528,7 @@ const CartilhaWebInterativa = () => {
             {/* Receitas Tributárias Detalhadas */}
             <div className="mb-12">
               <div className="bg-white rounded-2xl shadow-lg p-8">
-                <h3 className="text-2xl font-bold text-center mb-8 text-blue-600">Receitas Tributárias - R$ 939 milhões</h3>
+                <h3 className="text-2xl font-bold text-center mb-8 text-blue-600">Receitas Tributárias e Repasses CF88 - R$ 1.1 bilhões</h3>
                 <ResponsiveContainer width="100%" height={400}>
                   <PieChart>
                     <Pie
@@ -585,13 +586,13 @@ const CartilhaWebInterativa = () => {
               }}>
                 <div className="text-center">
                   <Users className="h-16 w-16 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-4">Receitas Tributárias</h3>
-                  <div className="text-4xl font-bold mb-2">R$ 939 milhões</div>
+                  <h3 className="text-2xl font-bold mb-4">Receitas Tributárias e Repasses CF88</h3>
+                  <div className="text-4xl font-bold mb-2">R$ 1.1 bilhões</div>
                   <div className="text-xl font-semibold bg-white/20 rounded-lg py-2 px-4">
                     Auditores do Tesouro
                   </div>
                   <p className="mt-4" style={{ color: '#dbeafe' }}>
-                    Competência constitucional exclusiva para arrecadação de tributos
+                    Competência constitucional exclusiva para arrecadação de tributos e repasses
                   </p>
                 </div>
               </div>
@@ -619,13 +620,13 @@ const CartilhaWebInterativa = () => {
           </div>
         </section>
 
-        {/* VAF-ICMS Destaque */}
+        {/* VAF-ICMS e Outros Repasses Destaque */}
         <section className="py-16 bg-gradient-to-r from-green-50 to-blue-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <div className="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto">
                 <DollarSign className="h-16 w-16 text-green-600 mx-auto mb-6" />
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">🏆 VAF-ICMS e ITR - DESTAQUE ESPECIAL</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">🏆 VAF-ICMS e Outros Repasses - DESTAQUE ESPECIAL</h2>
                 
                 <div style={{
                   background: 'linear-gradient(to right, #22c55e, #16a34a)',
@@ -634,9 +635,15 @@ const CartilhaWebInterativa = () => {
                   padding: '1.5rem',
                   marginBottom: '1.5rem'
                 }}>
-                  <h3 className="text-2xl font-bold mb-2">VAF-ICMS: R$ 460 milhões</h3>
-                  <p className="text-lg">49% das receitas tributárias</p>
-                  <p style={{ color: '#dcfce7' }} className="text-sm mt-2">+ ITR: R$ 3 milhões (0,3%)</p>
+                  <h3 className="text-2xl font-bold mb-2">VAF-ICMS e Repasses: R$ 674 milhões</h3>
+                  <p className="text-lg">61.3% das receitas tributárias e repasses</p>
+                  <div style={{ color: '#dcfce7' }} className="text-sm mt-2 space-y-1">
+                    <p>+ Cota-Parte do Fundo Especial do Petróleo – FEP: R$ 10 milhões</p>
+                    <p>+ Cota-parte da Compensação Financeira pela Exploração de Recursos Hídricos: R$ 94 milhões</p>
+                    <p>+ Cota-Parte do IPVA: R$ 105 milhões</p>
+                    <p>+ Cota-Parte do IPI: R$ 2 milhões</p>
+                    <p>+ ITR: R$ 3 milhões</p>
+                  </div>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-6 text-left">
@@ -646,14 +653,14 @@ const CartilhaWebInterativa = () => {
                       <li style={{ marginBottom: '0.5rem', color: '#374151' }}>• Depende da fiscalização tributária</li>
                       <li style={{ marginBottom: '0.5rem', color: '#374151' }}>• Responsabilidade dos Auditores</li>
                       <li style={{ marginBottom: '0.5rem', color: '#374151' }}>• Impacto direto na receita</li>
-                      <li style={{ marginBottom: '0.5rem', color: '#374151' }}>• Inclui gestão do ITR municipal</li>
+                      <li style={{ marginBottom: '0.5rem', color: '#374151' }}>• Inclui gestão do ITR e dos Repasses</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-green-600 mb-3">💎 IMPORTÂNCIA:</h4>
                     <p className="text-gray-700">
-                      Quanto melhor a fiscalização tributária municipal, 
-                      maior o VAF-ICMS recebido pelo município! A gestão 
+                      Quanto melhor a fiscalização tributária e de repasses, 
+                      maior é a receita recebida pelo município! A gestão 
                       do ITR também fortalece a arrecadação rural.
                     </p>
                   </div>
@@ -679,13 +686,13 @@ const CartilhaWebInterativa = () => {
                 
                 <div className="space-y-4 text-lg text-center">
                   <p className="font-bold text-blue-300">
-                    SOMENTE A AUTORIDADE TRIBUTÁRIA TEM PODER CONSTITUCIONAL E LEGAL PARA ARRECADAR TRIBUTOS
+                    SOMENTE A AUTORIDADE TRIBUTÁRIA TEM PODER CONSTITUCIONAL E LEGAL PARA ARRECADAR TRIBUTOS E GERIR REPASSES
                   </p>
                   <p className="font-bold text-red-300">
                     OS FISCAIS MUNICIPAIS EXERCEM PODER DE POLÍCIA ATRAVÉS DE AUTOS DE INFRAÇÃO
                   </p>
                   <p className="font-bold text-green-300 text-2xl">
-                    PROPORÇÃO REAL: 181:1 - RECEITAS TRIBUTÁRIAS vs AUTOS DE INFRAÇÃO
+                    PROPORÇÃO REAL: 212:1 - RECEITAS TRIBUTÁRIAS/REPASSES vs AUTOS DE INFRAÇÃO
                   </p>
                 </div>
               </div>
