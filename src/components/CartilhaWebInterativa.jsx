@@ -432,7 +432,7 @@ const CartilhaWebInterativa = () => {
                       </li>
                       <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
                         <span style={{ color: '#3b82f6', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
-                        Responsabilidade pelo ITR, cota-parte d0 ICMS, IPVA, Rec. Hídricos, FEP
+                        Responsabilidade pelo ITR, cota-parte do ICMS, IPVA, Rec. Hídricos, FEP
                       </li>
                     </ul>
                   </div>
