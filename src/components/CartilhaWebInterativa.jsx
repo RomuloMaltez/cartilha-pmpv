@@ -102,8 +102,8 @@ const CartilhaWebInterativa = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50">
       {/* Header fixo */}
-      <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-lg z-50 border-b border-blue-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <header className="fixed top-0 left-0 right-0 w-full bg-white/95 backdrop-blur-sm shadow-lg z-50 border-b border-blue-100">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
               <Scale className="h-8 w-8 text-blue-600" />
@@ -126,8 +126,8 @@ const CartilhaWebInterativa = () => {
 
         {/* Menu dropdown - só aparece quando isMenuOpen é true */}
         {isMenuOpen && (
-          <div className="bg-white border-t border-blue-100 shadow-lg">
-            <div className="px-4 py-2 space-y-1">
+          <div className="w-full bg-white border-t border-blue-100 shadow-lg">
+            <div className="w-full px-4 py-2 space-y-1">
               {menuItems.map((item) => (
                 <button
                   key={item.id}
