@@ -465,7 +465,7 @@ const CartilhaWebInterativa = () => {
                 
                 <div className="p-6">
                   <div className="mb-6">
-                    <h4 className="text-lg font-bold text-gray-900 mb-3">✅ COMPETÊNCIAS ESPECÍFICAS:</h4>
+                    <h4 className="text-lg font-bold text-gray-900 mb-3">✅ COMPETÊNCIAS EXCLUSIVAS:</h4>
                     <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                       <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem', color: '#374151' }}>
                         <span style={{ color: '#ef4444', marginRight: '0.5rem', marginTop: '0.1rem' }}>•</span>
