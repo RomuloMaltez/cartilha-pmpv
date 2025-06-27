@@ -7,7 +7,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Cores básicas que a cartilha usa
         blue: {
           50: '#eff6ff',
           100: '#dbeafe', 
@@ -105,6 +104,10 @@ export default {
           900: '#713f12',
         }
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
@@ -117,6 +120,7 @@ export default {
         '2xl': '1.5rem',
       },
       boxShadow: {
+        'lg': '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
         'xl': '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)',
         '2xl': '0 25px 50px -12px rgb(0 0 0 / 0.25)',
       },
@@ -126,4 +130,44 @@ export default {
     },
   },
   plugins: [],
+  safelist: [
+    // Garantir que todas as classes de gradiente sejam incluídas
+    'bg-gradient-to-r',
+    'bg-gradient-to-br',
+    'from-blue-600',
+    'to-blue-800',
+    'from-blue-500', 
+    'to-blue-600',
+    'from-red-500',
+    'to-red-600',
+    'from-green-500',
+    'to-green-600',
+    'from-amber-50',
+    'to-orange-50',
+    'from-amber-500',
+    'to-orange-500',
+    'from-amber-100',
+    'to-orange-100',
+    'from-blue-50',
+    'to-blue-100',
+    'shadow-lg',
+    'shadow-xl',
+    'backdrop-blur-sm',
+    'bg-white/95',
+    'bg-white/10',
+    'bg-white/20',
+    'border-amber-200',
+    'border-blue-100',
+    'text-blue-600',
+    'text-red-600',
+    'text-green-600',
+    'text-amber-700',
+    'text-orange-700',
+    'text-blue-400',
+    'text-blue-100',
+    'text-red-100',
+    'text-green-100',
+    'rounded-2xl',
+    'rounded-xl'
+  ]
 }
