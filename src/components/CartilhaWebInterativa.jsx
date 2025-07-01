@@ -202,7 +202,7 @@ const CartilhaWebInterativa = () => {
                 
                 <p className="text-lg text-gray-700 leading-relaxed">
                   Ressalta-se que esta cartilha foi elaborada em estrita observância à determinação do TCE/RO - DM-00185/24-GCVCS-Tutela Inibitória, em razão
-                  da Representação formalizada no Proc. nº 03912/24, apresentada pelo Ministério Público de Contas, a qual foi recepcionado pelo MP/RO que instaurou 
+                  da Representação formalizada no Proc. nº 03912/24, apresentada pelo Ministério Público de Contas, a qual foi recepcionada pelo MP/RO que instaurou 
                   procedimento NF nº 2024.0001.003.64717.
                 </p>
 
