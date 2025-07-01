@@ -198,8 +198,23 @@ const CartilhaWebInterativa = () => {
                   entre as competências dos <span className="font-bold text-blue-600">Auditores do Tesouro</span> e dos{' '}
                   <span className="font-bold text-red-600">Fiscais Municipais</span> no âmbito do Município de Porto Velho, 
                   com base na legislação vigente e nos <span className="font-bold">dados orçamentários reais</span> do PLOA 2025.
+                </p>
+                
+                <p className="text-lg text-gray-700 leading-relaxed">
                   Ressalta-se que esta cartilha foi elaborada em estrita observância à determinação do TCE/RO - DM-00185/24-GCVCS-Tutela Inibitória, em razão
-                  da Representação formalizada no Proc. nº 03912/24, apresentada pelo Ministério Público de Contas. 
+                  da Representação formalizada no Proc. nº 03912/24, apresentada pelo Ministério Público de Contas.
+                </p>
+
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  <a
+                    href="https://docs.google.com/document/d/1jS1UOg7yXEX_SyEC2uEcm5mVt-atkfAdxmvO9D85Cbg/edit?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center space-x-1 font-semibold text-blue-600 hover:text-blue-800 hover:underline transition-colors"
+                  >
+                    <span>Para ler a fundamentação técnico-jurídica completa clique aqui.</span>
+                    <ExternalLink className="h-4 w-4" />
+                  </a>                              
                 </p>
               </div>
             </div>
