@@ -199,7 +199,7 @@ const CartilhaWebInterativa = () => {
                   <span className="font-bold text-red-600">Fiscais Municipais</span> no âmbito do Município de Porto Velho, 
                   com base na legislação vigente e nos <span className="font-bold">dados orçamentários reais</span> do PLOA 2025.
                   Ressalta-se que esta cartilha foi elaborada em estrita observância à determinação do TCE/RO - DM-00185/24-GCVCS-Tutela Inibitória, em razão
-                  da Representação formalizada no Proc. nº 03912/24 - Representação, apresentada pelo Ministério Público de Contas. 
+                  da Representação formalizada no Proc. nº 03912/24, apresentada pelo Ministério Público de Contas. 
                 </p>
               </div>
             </div>
